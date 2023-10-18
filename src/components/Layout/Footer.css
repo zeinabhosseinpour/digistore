@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ 
+
+
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16px;
+   /* border: 1px solid red; */
+   /* background-color: rgb(227, 233, 227); */
+   
+}
+
+@media screen and (min-width:640px) {
+.container {
+    max-width: 640px;
+    
+}
+}
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+        
+        
+    }
+}
+@media screen and (min-width:1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+ @media screen and (min-width:1536px) {
+        .container {
+            max-width: 1536px;
+        }
+    }
+
+
+
+
+/* .grid:not(:last-child) {
+margin-bottom: 30px;
+} */
+
+.grid {
+    display: grid;
+    column-gap: 100px;
+    row-gap: 150px;
+}
+
+.grid--5--cols {
+    grid-template-columns: 2.5fr 1fr 1fr 2fr 
+
+}
+
+/* ********************* */
+/* FOOTER */
+/* ********************* */
+
+.footer {
+    padding: 30px 0;
+    border-radius: 16px;
+    background-color: rgb(229, 231, 235);
+   
+}
+.nav-col {
+
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom:40px ;
+    /* botostart milad sabad */
+    /* background-color: rgb(232, 234, 246);
+color: rgb(126, 87, 194); */
+    
+}
+.lit {
+    background-color: transparent;
+    list-style-type: none;
+}
+.footer-nav {
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.footer-link {
+text-decoration: none;
+
+font-size: 14px;
+color: #777;
+transition: all 0.3s;
+/* background-color: transparent; */
+/* display: flex; */
+}
+
+
+.footer-link:hover,
+.footer-link:active {
+  /* color: #555; */
+  color: #eb3a3a;
+ 
+}
+
+.address {
+    margin-bottom: 38px;
+}
+
+.contacts {
+    font-size: 14px;
+    /* line-height:4; */
+    margin-bottom: 12px;
+}
+
+.contacts-link {
+    display: flex;
+    gap: 12px;
+}
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+display: block;
+margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    
+    }
+
+    .logo-about {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: start; */
+        /* align-items: center; */
+    }
+
+    .about {
+        /* border:1px solid #777; */
+
+     /* margin-top: 10px; */
+     background-color: rgba(24, 28, 50, 0.12);
+     border-radius: 16px;
+     padding: 32px;
+       
+    }
+
+    .about-p {
+        font-size: 14px;
+       
+        
+    }
+
+.social-links {
+    list-style: none;
+    display:flex ;
+    /* justify-content: center; */
+    align-items: center;
+    gap:35px;
+}
+
+.social-icon {
+width: 38px;
+height: 38px;
+}
+
+.social-icon:hover {
+    color:#eb3a3a;
+
+}
+
+
+
+.social {
+    margin-top: 50px;
+}
+

@@ -1,0 +1,186 @@
+/* .main-nav {
+   
+    display: flex;
+    align-items: center;
+    
+}
+.main-nav_link {
+    
+   
+    display: block;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: all;
+    transition-duration:0s;
+    border-radius: 16px;
+}
+.d {
+    margin: 700px;
+    background-color: red;
+    display: block;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: all;
+    transition-duration:0s;
+    border-radius: 16px;
+
+}
+ul li:hover {
+    background-color: blue;
+    color: #fff; 
+    
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    /* direction: rtl; */
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    /* color: white; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+  /* .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  } */
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    /* margin-top: 20px; */
+    /* bottom:50px; */
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* direction: rtl; */
+  }
+  
+  .dropdown-content .header {
+    background: red;
+    padding: 16px;
+    /* color: white; */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: right;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 250px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+  }
+  
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+}
+
+.menu {
+    display: flex;
+
+}
+.rightmenu {
+background-color: #fff;
+/* dijikala menu */
+color: rgb(8, 10, 56);
+width: 30%;
+height: 250px;
+}
+
+.leftmenu {
+    background-color:#f1f8ff;
+    /* color: #666; */
+    /* dijikala menu */
+    color: rgb(118, 119, 144);
+    float: right;
+    width: 70%;
+    height: 250px;
+}
+
+.ul-right {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}

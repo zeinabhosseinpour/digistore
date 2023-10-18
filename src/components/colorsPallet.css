@@ -1,0 +1,34 @@
+:root {
+    --color-body:rgb(243, 244, 246);
+    --color-card:yellow;
+    --color-login:rgb(59, 130, 246);
+    --bgcolor-login: rgba(59, 130, 246, 0.1);
+    --color-sabad: #4A6DFF;
+    --bgcolor-sbad: rgba(74, 109, 255, 0.1);
+    --bgcolor-lmenu: #f1f8ff;
+    --color-lmenu:rgb(118, 119, 144);
+    --bgcolor-rmenu: #fff;
+    --color-rmenu: rgb(8, 10, 56);
+    --color-footer: #eb3a3a;
+    --bgcolor-footer: rgb(229, 231, 235);
+    --color-linkfooter: #777;
+    --bgcolor-aboutfooter: rgba(24, 28, 50, 0.12);
+    --bgcolor-searchbar: #fff;
+    --color-producttitle:rgb(37 99 235);
+    --color-product-orginal_price: rgb(170, 171, 186);
+    --color-visit-details :color: rgb(59, 130, 246);
+    --bgcolor-visit-btn: rgb(74, 109, 255);
+    --color-visit-btn: rgb(255, 255, 255);
+    --bgcolor-visit-btn-hover : rgb(76, 110, 255);
+                
+    
+
+}
+
+.bdy {
+    background-color: var(--color-body);
+    color: var(--color-card);
+}
+.App-link {
+    color: #61dafb;
+}

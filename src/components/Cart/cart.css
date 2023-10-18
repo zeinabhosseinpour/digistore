@@ -1,0 +1,26 @@
+.mycontainer {
+
+}
+
+.cart {
+display: flex;
+flex-direction: column;
+border: radius 20px;
+padding: 4px;
+background-color: yellow;
+}
+
+.cart-content {
+
+}
+
+.cart-item {
+
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}

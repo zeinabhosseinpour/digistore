@@ -1,0 +1,58 @@
+
+/* serachbar styling*/
+.main-searchbar{
+    display: flex;
+    flex-basis: 100%;
+   max-width: 36rem;
+    margin-right: 16px;
+    margin-left: 16px;
+   
+    
+}
+.searchbar {
+   background-color: rgb(231, 223, 223);
+    padding: 4px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.searchbar-icon {
+margin-left: 12px;
+margin: 4px;
+
+}
+
+.searchbar-input { 
+    border: none;   
+    
+    width: 100%;
+    padding: 8px;
+    
+
+}
+input:focus {
+    outline: none;
+   
+    
+}
+
+.login {
+height: 50px;
+line-height: 50px;
+text-align: center;
+width: unset;
+padding: 0 12px;
+border-radius: 16px;
+border: 1px solid #e4e4e4;
+color: #4a734d;
+font-size: 23px;
+white-space: nowrap;
+transition: all 0.3s ease-in-out;
+}
+
+/* longin button */
+
+
+
+/* cart shopping */
