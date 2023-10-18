@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="about">
             <h2 className="footer-heading">درباره ما</h2>
             <p className="about-p">
-              همیان چرم با تکیه بر شعار "لبخند ماندگار" رضایت مشتری را در اولویت
+              رز چرم با تکیه بر شعار "لبخند ماندگار" رضایت مشتری را در اولویت
               دستور کار خود قرار داده است و سعی کرده است با ارائه محصولات با
               کیفیت و خدمات مناسب لبخند مشتری را پس از خرید ماندگار کند.
             </p>
@@ -28,7 +28,7 @@ const Footer = () => {
           <ul className="footer-nav">
             <li>
               <a className="footer-link" href="#">
-                راهنمای خرید از همیان چرم
+                راهنمای خرید از رز چرم
               </a>
             </li>
             <li>
@@ -95,9 +95,9 @@ const Footer = () => {
         </nav>
         <div className="logo-col">
           <div className="address-col">
-            <h4 className="footer-heading">آدرس و تلفن همیان چرم</h4>
+            <h4 className="footer-heading">آدرس و تلفن رز چرم</h4>
             <div className="contacts">
-              <span>کاشان خیابان کاشان گالری همیان چرم</span>
+              <span>تهران خیابان تهران گالری رز چرم</span>
             </div>
             <ul className="footer-nav">
               <li className="contacts-link">
@@ -121,7 +121,7 @@ const Footer = () => {
                 <span> ایمیل :</span>
                 <span>
                   <a className="footer-link" href="#">
-                    info@hamiyan.ir
+                    info@rosecharm.ir
                   </a>
                 </span>
               </li>
